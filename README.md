@@ -47,6 +47,8 @@ dependencies {
    </dependency>
    ```
 
+##### **JAR file**
+ [download link](https://github.com/ajandera/nixtee-connectors-java/blob/main/target/nixtee-client-1.0-SNAPSHOT.jar)
 ---
 
 #### **Setup**
