@@ -26,6 +26,27 @@ dependencies {
 }
 ```
 
+##### **JitPack**
+[JitPack](https://jitpack.io/) is a service that builds and hosts Java projects from GitHub, making it easy to share a Java library without publishing to Maven Central.
+
+   **Add JitPack as a Repository**:
+   - Add JitPack as a repository in their `pom.xml`:
+
+   ```xml
+   <repositories>
+       <repository>
+           <id>jitpack.io</id>
+           <url>https://jitpack.io</url>
+       </repository>
+   </repositories>
+
+   <dependency>
+       <groupId>com.github.ajandera</groupId>
+       <artifactId>nixtee-connector-java</artifactId>
+       <version>Tag</version>
+   </dependency>
+   ```
+
 ---
 
 #### **Setup**
